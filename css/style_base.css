@@ -81,8 +81,7 @@ nav ul li a:hover::before{
     background: var(--primary-color);
     padding: 10px 15px;
     text-decoration: none;
-    transition: all .5s;
-    transform-origin: left;
+    transition: all .4s ease;
 }
 
 .social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
@@ -92,18 +91,10 @@ nav ul li a:hover::before{
 .social ul li .icon-mail {background: #666666;}
 
 .social ul li a:hover{
-    transform: scaleX(.8);
+    padding: 10px 30px;
     background-color: #000;
-    padding: 10px 50px;
 }
 
-.social ul li a i {
-    transition: transform 0.5s;
-}
-
-.social ul li a:hover i {
-    transform: scaleX(1.5);
-}
 
   /* Contenido */
 .container{
